@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: black;
+    color: white;
+
+    background-image: url("chatrapathi.jpg");
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/* TITLE */
+.title {
+    text-align: center;
+    background: #2c2c2c;
+    padding: 20px;
+    border-radius: 40px;
+    width: 60%;
+    margin: 30px auto;
+}
+
+/* MAIN LAYOUT */
+.main-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 30px;
+}
+
+/* LEFT PANEL */
+.left-box {
+    font-size: 18px;
+    width: 60%;
+    background: rgba(40,40,40,0.85);
+    padding: 40px;
+    border-radius: 20px;
+}
+
+/* RIGHT PANEL */
+.right-box {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* DOWNLOAD BUTTON */
+.download-btn {
+    text-decoration: none;
+    text-align: center;
+    padding: 25px;
+    background: rgba(40,40,40,0.85);
+    border-radius: 20px;
+    color: white;
+    font-size: 20px;
+}
+
+/* SUBMISSION BOX */
+.submit-box {
+    background: rgba(40,40,40,0.85);
+    padding: 25px;
+    border-radius: 20px;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    border-radius: 12px;
+    margin: 10px 0;
+    background: rgba(40,40,40,0.85);
+    border: 1px solid #555;
+    color: white;
+}
+
+/* BUTTON */
+button {
+    width: 100%;
+    padding: 12px;
+    border-radius: 12px;
+    border: none;
+    background: rgba(40,40,40,0.85);
+    color: white;
+    border: 1px solid #555;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #777;
+}

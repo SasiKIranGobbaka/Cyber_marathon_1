@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cyber Marathon Round 1</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <h1 class="title">Cyber Marathon Round 1</h1>
+
+    <div class="main-container">
+      <!-- LEFT PANEL -->
+      <div class="left-box">
+        <h2>Description</h2>
+
+        <p>
+          A forgotten message lies hidden within history itself. Not all secrets
+          are locked away — some remain visible, waiting for the right observer
+          to uncover their meaning. 
+          <br><br>
+          Throughout history, important messages were
+          carried across enemy lands disguised within ordinary objects, trusted
+          to pass unnoticed by those who failed to look closely. What seems
+          simple may hold the beginning of a hidden trail. Observe carefully,
+          think beyond the obvious, and uncover the truth concealed in plain
+          sight.
+        </p>
+      </div>
+
+      <!-- RIGHT PANEL -->
+      <div class="right-box">
+        <a href="assets/shivajimaharaj.jpg" download class="download-btn">
+          Download Challenge Image
+        </a>
+
+        <div class="submit-box">
+          <h3>Submission</h3>
+
+          <input type="text" id="team" placeholder="Team Name" />
+          <input type="text" id="answer" placeholder="Enter Flag" />
+
+          <button id="submitBtn">Submit</button>
+
+          <!-- STATUS BOX -->
+          <div id="statusBox" class="status-box">
+            <div id="progressBar"></div>
+            <span id="statusText"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
