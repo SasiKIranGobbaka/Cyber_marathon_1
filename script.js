@@ -64,4 +64,5 @@ document.getElementById("submitBtn")
         bar.style.background = "#ef4444";
         btn.disabled = false;
     });
+
 });
